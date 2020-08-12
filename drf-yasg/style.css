@@ -1,0 +1,108 @@
+html {
+    box-sizing: border-box;
+    overflow: -moz-scrollbars-vertical;
+    overflow-y: scroll;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body.swagger-body {
+    background: #fafafa;
+}
+
+.hidden {
+    display: none;
+}
+
+#django-session-auth > div {
+    display: inline-block;
+}
+
+#django-session-auth .btn.authorize {
+    padding: 10px 23px;
+}
+
+#django-session-auth .btn.authorize a {
+    color: #49cc90;
+    text-decoration: none;
+}
+
+#django-session-auth .hello {
+    margin-right: 5px;
+}
+
+#django-session-auth .hello .django-session {
+    font-weight: bold;
+}
+
+.label {
+    display: inline;
+    padding: .2em .6em .3em;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+
+.label-primary {
+    background-color: #337ab7;
+}
+
+.divider {
+    margin-right: 8px;
+    background: #16222c44;
+    width: 2px;
+}
+
+svg.swagger-defs {
+    position: absolute;
+    width: 0;
+    height: 0;
+}
+
+/* custom css
+body{
+	background: #1b1b1b!important;
+}
+#swagger-ui .swagger-ui .scheme-container{
+	background: #1b1b1b;
+}*/
+.swagger-ui table{
+  display: -webkit-box!important;
+}
+pre.microlight{
+	min-width: 50vw;
+}
+.swagger-ui .markdown .highlight-code pre{
+    color: #fff;
+    font-weight: 400;
+    white-space: pre-wrap;
+    background: #41444e;
+    padding: 15px;
+}
+a{
+  text-decoration: none;
+}
+form.download-url-wrapper, .information-container.wrapper .info a.link[href$="api/?format=openapi"]{
+	display:none!important;
+}
+.information-container.wrapper .info a.link[href$="api/?format=openapi"],
+.swagger-ui.swagger-container .wrapper a[href^="https://validator.swagger.io/validator/debug"],
+.filter-container,  .schemes.wrapper > label[for="schemes"]{
+  display:none;
+}
+.tabcontent{
+  overflow: auto;
+}

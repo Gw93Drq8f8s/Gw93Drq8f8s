@@ -100,7 +100,7 @@ form.download-url-wrapper, .information-container.wrapper .info a.link[href$="ap
 }
 .information-container.wrapper .info a.link[href$="api/?format=openapi"],
 .swagger-ui.swagger-container .wrapper a[href^="https://validator.swagger.io/validator/debug"],
-.filter-container,  .schemes.wrapper > label[for="schemes"]{
+.filter-container, .scheme-container .schemes.wrapper > label[for="schemes"]{
   display:none;
 }
 .tabcontent{

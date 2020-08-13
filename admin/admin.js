@@ -132,7 +132,9 @@ document.addEventListener('DOMContentLoaded', function() {
 		 if(countries && countries.length > 3){
 			 document.querySelector("#countriesWarningMessage").innerHTML = `<span style="color:red;">Warning ${countries.length} countries selected!</span> <span>${selectValues}</span>`;
 		 }
-		 else {document.querySelector("#countriesWarningMessage").innerHTML = "";}
+		 else {
+			 document.querySelector("#countriesWarningMessage").innerHTML = `<span> Countries selected: ${selectValues}</span>`;
+		 }
 	   if(summary && countries.length != 0){
 		   show_hideButtons("initial");
 	   }
